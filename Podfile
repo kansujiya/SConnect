@@ -6,11 +6,12 @@ target 'SConnect' do
   use_frameworks!
 
   # Pods for SConnect
+pod 'Alamofire', '~> 4.4'
+pod 'SwiftyJSON'
 
-  target 'SConnectTests' do
+target 'SConnectTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'Alamofire', '~> 4.4'
   end
 
 end
