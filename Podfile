@@ -10,6 +10,7 @@ target 'SConnect' do
   target 'SConnectTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Alamofire', '~> 4.4'
   end
 
 end
